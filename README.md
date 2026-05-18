@@ -4,6 +4,9 @@
 
 This is **not** the full GoBirdie production caddie engine. The public repo is a **research and demo slice**: enough to run experiments, understand the simulation approach, and build on a clean API — without shipping calibration tables, anchor-carry blending, or app-specific club catalogues.
 
+# Link for the Native UI demo: 
+https://github.com/OttoM1/GoBirdie-native-app-shell
+
 ---
 
 ## What this repo is
