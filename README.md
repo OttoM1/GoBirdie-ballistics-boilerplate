@@ -11,7 +11,7 @@ https://github.com/OttoM1/GoBirdie-native-app-shell
 
 ## What this repo is
 
-- `public-release` — development branch containing the publicly released RK4 trajectory engine, atmospheric models, and browser-based simulation lab.
+- `open_source` — development branch or `open-source` - development folder, containing the publicly released RK4 trajectory engine, atmospheric models, and browser-based simulation lab.
 
 | In scope (public) | Out of scope (private / not in this tree) |
 |-------------------|-------------------------------------------|
