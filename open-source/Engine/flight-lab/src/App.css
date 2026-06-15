@@ -1,0 +1,269 @@
+.app-root {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  
+}
+.app-container {
+max-width: 1880px;
+  margin: 0 auto;
+  padding: 16px 20px 48px;
+  background: transparent;
+}
+
+.top-bar {
+  border-bottom: 1px solid #2d3a47;
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.sub {
+  margin: 6px 0 0;
+  color: #8b9bab;
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  color: #a8b8c8;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+}
+
+@media (min-width: 960px) {
+  .grid {
+    grid-template-columns: minmax(320px, 1fr) minmax(360px, 1.15fr);
+    align-items: start;
+  }
+}
+
+.section-label {
+  color: #5eead4;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: 14px 0 8px;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+.field-label {
+  display: block;
+  color: #8b9bab;
+  font-size: 0.78rem;
+  margin-bottom: 4px;
+}
+
+.input,
+.select {
+  width: 100%;
+  border: 1px solid #2d3a47;
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: #0c1014;
+  color: #e8eef4;
+  font-size: 0.95rem;
+}
+
+.input:focus,
+.select:focus {
+  outline: none;
+  border-color: #14b8a6;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.btn {
+  flex: 1;
+  min-width: 120px;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 14px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.btn-primary {
+  background: #14b8a6;
+  color: #041012;
+}
+
+.btn-secondary {
+  background: #243038;
+  color: #e8eef4;
+  border: 1px solid #2d3a47;
+}
+
+.btn-ghost {
+  background: transparent;
+  color: #5eead4;
+  border: 1px dashed #2d3a47;
+  font-weight: 600;
+}
+
+.chart-pair {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.chart-title {
+  color: #8b9bab;
+  font-size: 0.82rem;
+  margin: 0 0 4px;
+}
+
+.legend {
+  margin-top: 12px;
+}
+
+.legend-title {
+  color: #5eead4;
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.legend-row {
+  color: #8b9bab;
+  font-size: 0.72rem;
+  margin-bottom: 4px;
+}
+
+.stats-box {
+  margin-top: 18px;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #2d3a47;
+  background: #1a222c;
+}
+
+.stats-title {
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+.stat-line {
+  color: #8b9bab;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  margin-bottom: 6px;
+}
+
+.stat-muted {
+  color: #6b7c8c;
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+
+.stat-section {
+  color: #5eead4;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 12px 0 6px;
+}
+
+.stats-title + .stat-section {
+  margin-top: 4px;
+}
+
+.stat-k {
+  color: #c8d4e0;
+  font-weight: 600;
+}
+
+.stat-em {
+  color: #e8eef4;
+  font-weight: 700;
+}
+
+.stat-compact-muted {
+  color: #758595;
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+
+.stat-footnote {
+  margin-top: 10px;
+}
+
+.sweep-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #2d3a47;
+}
+
+table.sweep {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.78rem;
+}
+
+table.sweep th,
+table.sweep td {
+  padding: 8px 10px;
+  text-align: right;
+  border-bottom: 1px solid #243038;
+}
+
+table.sweep th:first-child,
+table.sweep td:first-child {
+  text-align: left;
+}
+
+table.sweep th {
+  background: #151c24;
+  color: #8b9bab;
+  font-weight: 600;
+}
+
+table.sweep tr:hover td {
+  background: rgba(20, 184, 166, 0.06);
+}
+
+.row-highlight td {
+  background: rgba(94, 234, 212, 0.08);
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  color: #8b9bab;
+  font-size: 0.82rem;
+}
+
+.checkbox-row input {
+  accent-color: #14b8a6;
+}
